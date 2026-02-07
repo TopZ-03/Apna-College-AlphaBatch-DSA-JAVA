@@ -31,7 +31,7 @@ public class Activity_selection {
         ArrayList <Integer> ans = new ArrayList<>();
 
         //1at activity
-        maxAct = 1;//because at list one activity will be performed
+        maxAct = 1;//because at least one activity will be performed
         ans.add(activities[0][0]);
         int lastEnd = activities[0][2];
         for(int i = 0; i<end.length; i++){
